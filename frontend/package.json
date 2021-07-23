@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack-dev-server --progress --color --inline --hot",
+    "production": "webpack --progress -p"
   },
   "author": "valdo neves",
   "license": "ISC",
@@ -18,6 +19,7 @@
     "babel-preset-react": "^6.24.1",
     "bootstrap": "^3.3.7",
     "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^0.9.0",
     "font-awesome": "^4.7.0",
     "react": "^15.4.2",
